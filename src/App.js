@@ -2,7 +2,6 @@ import { AppWrapper } from "./components/styles";
 import Home from "./components/Home";
 import InstructorProfile from "./components/InstructorProfile";
 import NotFound from "./components/NotFound";
-import { useState } from "react";
 import { Route, Switch ,Redirect} from "react-router-dom";
 
 const App = ({ instructors }) => {
