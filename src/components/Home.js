@@ -8,7 +8,6 @@ const Home = ({ instructors, goTo }) => {
         <InstructorTag
           instructor={instructor}
           key={instructor.slug}
-          goTo={goTo}
         />
       ))}
     </>
